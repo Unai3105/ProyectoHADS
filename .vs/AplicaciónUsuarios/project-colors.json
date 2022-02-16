@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c87bda26-6c30-4c64-bbff-8547d240eb6d": {
+      "ProjectGuid": "c87bda26-6c30-4c64-bbff-8547d240eb6d",
+      "DisplayName": "AplicaciónUsuarios",
+      "ColorIndex": 0
+    },
+    "1888d8ae-31dd-4274-b980-09b128863f65": {
+      "ProjectGuid": "1888d8ae-31dd-4274-b980-09b128863f65",
+      "DisplayName": "AccesoDatos",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}

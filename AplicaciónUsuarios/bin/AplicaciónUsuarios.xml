@@ -145,9 +145,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm2._form1">
+<member name="F:AplicaciónUsuarios.WebForm2._label">
 <summary>
-Control form1.
+Control label.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -325,9 +325,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm2._Label7">
+<member name="F:AplicaciónUsuarios.WebForm2._Tipo">
 <summary>
-Control Label7.
+Control Tipo.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -346,6 +346,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.WebForm2._Button1">
 <summary>
 Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._Label8">
+<summary>
+Control Label8.
 </summary>
 <remarks>
 Campo generado automáticamente.

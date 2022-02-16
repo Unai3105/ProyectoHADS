@@ -8,7 +8,7 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="label" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="REGISTRO DE USUARIO:"></asp:Label>
         </div>
@@ -16,7 +16,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:TextBox ID="correo" runat="server"></asp:TextBox>
         <asp:RequiredFieldValidator ID="ValidadorCorreo" runat="server" ControlToValidate="correo" ErrorMessage="* Campo necesario" ForeColor="Red"></asp:RequiredFieldValidator>
-        <asp:RegularExpressionValidator ID="ValidarCorreoValido" runat="server" ControlToValidate="correo" ErrorMessage="* Correo no valido" ForeColor="Red" ValidationExpression="[a-zA-Z]\d{3}"></asp:RegularExpressionValidator>
+        <asp:RegularExpressionValidator ID="ValidarCorreoValido" runat="server" ControlToValidate="correo" ErrorMessage="* Correo no valido" ForeColor="Red" ValidationExpression="[a-zA-Z0-9]+@[a-z]+[.a-z]+"></asp:RegularExpressionValidator>
         <p>
             <asp:Label ID="Label3" runat="server" Text="Nombre:"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;
@@ -38,13 +38,16 @@
         <asp:RequiredFieldValidator ID="ValidadorPassword2" runat="server" ControlToValidate="password2" ErrorMessage="* Campo necesario" ForeColor="Red"></asp:RequiredFieldValidator>
         <asp:CompareValidator ID="ComparadorPassword" runat="server" ControlToCompare="password" ControlToValidate="password2" ErrorMessage="* Las contraseñas tienen que ser iguales" ForeColor="Red"></asp:CompareValidator>
         <p>
-            <asp:Label ID="Label7" runat="server" Text="Rol:"></asp:Label>
+            <asp:Label ID="Tipo" runat="server" Text="Rol:"></asp:Label>
             <asp:DropDownList ID="DropDownList1" runat="server">
                 <asp:ListItem Value="alumno">Alumno</asp:ListItem>
                 <asp:ListItem Value="profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
-        <asp:Button ID="Button1" runat="server" PostBackUrl="~/RegistroCompletadoBorrar.html" Text="Registrar" />
+        <asp:Button ID="Button1" runat="server" PostBackUrl="Registro.aspx" Text="Registrar" />
+        <br />
+        <br />
+        <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

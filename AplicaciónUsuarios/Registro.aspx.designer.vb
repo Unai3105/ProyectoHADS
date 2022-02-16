@@ -14,13 +14,13 @@ Option Explicit On
 Partial Public Class WebForm2
 
     '''<summary>
-    '''Control form1.
+    '''Control label.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    Protected WithEvents label As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
     '''Control Label1.
@@ -194,13 +194,13 @@ Partial Public Class WebForm2
     Protected WithEvents ComparadorPassword As Global.System.Web.UI.WebControls.CompareValidator
 
     '''<summary>
-    '''Control Label7.
+    '''Control Tipo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label7 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents Tipo As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control DropDownList1.
@@ -219,4 +219,13 @@ Partial Public Class WebForm2
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+
+    '''<summary>
+    '''Control Label8.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label8 As Global.System.Web.UI.WebControls.Label
 End Class
