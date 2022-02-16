@@ -6,7 +6,7 @@ Public Class AccesodatosSQL
 
     Public Shared Function conectar() As String
         Try
-            conexion.ConnectionString = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password=Ekaitzaelurra_221018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            conexion.ConnectionString = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password={YourPassword};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
             conexion.Open()
         Catch ex As Exception
             Return "ERROR DE CONEXIÓN: " + ex.Message
