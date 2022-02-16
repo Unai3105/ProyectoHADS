@@ -190,3 +190,6 @@ C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\obj\Debug\AplicaciónUsuarios.vb
 C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\obj\Debug\AplicaciónUsuarios.dll
 C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\obj\Debug\AplicaciónUsuarios.xml
 C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\obj\Debug\AplicaciónUsuarios.pdb
+C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\bin\Funciones.dll
+C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\bin\Funciones.pdb
+C:\Users\uroa3\Desktop\HADS\AplicaciónUsuarios\bin\Funciones.xml

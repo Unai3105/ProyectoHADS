@@ -19,9 +19,10 @@ Public Class AccesodatosSQL
     End Sub
 
     Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numconfir As Integer, ByVal confirmado As Boolean, ByVal tipo As String, ByVal pass As Integer, ByVal codpass As Integer) As String
-        Dim st = "insert into Usuarios (email, nombre, apellidos, numconfir, confirmado, tipo, pass, codpass) values (@email,@nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
+        Dim st = "insert into Usuarios (email, nombre, apellidos, numconfir, confirmado, tipo, pass, codpass) values ( @email,@nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
+
         comando.Parameters.AddWithValue("@email", email)
         comando.Parameters.AddWithValue("@nombre", nombre)
         comando.Parameters.AddWithValue("@apellidos", apellidos)

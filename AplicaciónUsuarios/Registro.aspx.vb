@@ -17,7 +17,8 @@ Public Class WebForm2
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Label8.Text = AccesoDatos.AccesodatosSQL.insertar("uroa3105@gmail.com", "Unai", "Roa Cepeda", 123456, False, "Alumno", 123456, 123456)
-
+        Dim numConf As Integer = Funciones.Funciones.randomNumConf()
+        Label8.Text = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, password.Text, 123456)
+        Funciones.Funciones.enviarCorreoConfirm(correo.Text, numConf)
     End Sub
 End Class

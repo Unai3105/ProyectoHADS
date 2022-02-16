@@ -38,13 +38,13 @@
         <asp:RequiredFieldValidator ID="ValidadorPassword2" runat="server" ControlToValidate="password2" ErrorMessage="* Campo necesario" ForeColor="Red"></asp:RequiredFieldValidator>
         <asp:CompareValidator ID="ComparadorPassword" runat="server" ControlToCompare="password" ControlToValidate="password2" ErrorMessage="* Las contraseñas tienen que ser iguales" ForeColor="Red"></asp:CompareValidator>
         <p>
-            <asp:Label ID="Tipo" runat="server" Text="Rol:"></asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server">
+            <asp:Label ID="Rol" runat="server" Text="Rol:"></asp:Label>
+            <asp:DropDownList ID="Tipo" runat="server">
                 <asp:ListItem Value="alumno">Alumno</asp:ListItem>
                 <asp:ListItem Value="profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
-        <asp:Button ID="Button1" runat="server" PostBackUrl="Registro.aspx" Text="Registrar" />
+        <asp:Button ID="Button1" runat="server" PostBackUrl="Confirmar.aspx" Text="Registrar" />
         <br />
         <br />
         <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>

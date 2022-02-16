@@ -194,22 +194,22 @@ Partial Public Class WebForm2
     Protected WithEvents ComparadorPassword As Global.System.Web.UI.WebControls.CompareValidator
 
     '''<summary>
+    '''Control Rol.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Rol As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control Tipo.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Tipo As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
-    '''Control DropDownList1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents Tipo As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control Button1.

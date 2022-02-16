@@ -325,18 +325,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm2._Tipo">
+<member name="F:AplicaciónUsuarios.WebForm2._Rol">
 <summary>
-Control Tipo.
+Control Rol.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm2._DropDownList1">
+<member name="F:AplicaciónUsuarios.WebForm2._Tipo">
 <summary>
-Control DropDownList1.
+Control Tipo.
 </summary>
 <remarks>
 Campo generado automáticamente.
