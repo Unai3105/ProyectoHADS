@@ -28,8 +28,6 @@
         <p>
             &nbsp;</p>
         <p>
-            &nbsp;</p>
-        <p>
             <asp:Label ID="Label4" runat="server" Text="¿No tienes cuenta?"></asp:Label>
         </p>
         <p>
@@ -40,7 +38,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:LinkButton ID="chpass" runat="server">Cambiar contraseña</asp:LinkButton>
+            <asp:LinkButton ID="chpass" runat="server" Visible="False">Cambiar contraseña</asp:LinkButton>
         </p>
     </form>
 </body>

@@ -2,10 +2,12 @@
 Public Class WebForm2
     Inherits System.Web.UI.Page
 
+    Shared emailActual As String
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim result As String
         result = AccesoDatos.AccesodatosSQL.conectar()
-        Label1.Text = result
+        'MsgBox(result) 'para ver si se ha concetado correctamente
     End Sub
 
     Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
@@ -18,7 +20,11 @@ Public Class WebForm2
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim numConf As Integer = Funciones.Funciones.randomNumConf()
-        Label8.Text = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, password.Text, 123456)
+        Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, password.Text, 123456)
+        'MsgBox(msg) 'para mostrar si se ha insertado correctamente
         Funciones.Funciones.enviarCorreoConfirm(correo.Text, numConf)
+        MsgBox("Registro completado correctamente")
+        Response.Redirect("Confirmar.aspx", True)
+
     End Sub
 End Class

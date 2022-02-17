@@ -1,7 +1,9 @@
 ﻿Imports System.Net.Mail
 
 Public Class Funciones
+
     Public Shared Function randomNumConf() As Integer
+        Randomize()
         Return CLng(Rnd() * 9000000) + 1000000
     End Function
 
@@ -32,4 +34,5 @@ Public Class Funciones
             MsgBox(ex.Message)
         End Try
     End Function
+
 End Class

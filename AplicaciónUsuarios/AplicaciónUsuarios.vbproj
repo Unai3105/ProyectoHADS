@@ -96,6 +96,7 @@
     <Content Include="Inicio.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="Confirmar.aspx" />
+    <Content Include="Aplicación.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -136,6 +137,13 @@
     </Compile>
     <Compile Include="Confirmar.aspx.vb">
       <DependentUpon>Confirmar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Aplicación.aspx.designer.vb">
+      <DependentUpon>Aplicación.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aplicación.aspx.vb">
+      <DependentUpon>Aplicación.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

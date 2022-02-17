@@ -44,10 +44,9 @@
                 <asp:ListItem Value="profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
-        <asp:Button ID="Button1" runat="server" PostBackUrl="Confirmar.aspx" Text="Registrar" />
+        <asp:Button ID="Button1" runat="server" Text="Registrar" />
         <br />
         <br />
-        <asp:Label ID="Label8" runat="server" Text="Label"></asp:Label>
     </form>
 </body>
 </html>

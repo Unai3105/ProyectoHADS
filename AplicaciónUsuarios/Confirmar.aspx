@@ -10,10 +10,16 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="Introducir número de confirmación:"></asp:Label>
-            <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            Correo a confirmar<asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label1" runat="server" Text="Número de confirmación:"></asp:Label>
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
         </div>
         <asp:Button ID="Button1" runat="server" Text="Confirmar" />
+        <br />
     </form>
+    <p>
+        &nbsp;</p>
 </body>
 </html>
