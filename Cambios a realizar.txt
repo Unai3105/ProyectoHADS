@@ -1,0 +1,15 @@
+========== ENTREGA 1 ========== 
+
+[DONE] Contrasa alfanumérica
+
+[DONE] Enlace de confirmación
+
+[DONE] Utilizar "session" para guardar el email y utilizarlo en la siguiente página
+
+[] Hacer el cambiar contraseña
+
+[DONE] Comprobar casos de prueba y mensajes de error
+
+========== ENTREGA 2 ========== 
+
+========== ENTREGA 3 ========== 

@@ -26,7 +26,8 @@
             <asp:Button ID="login" runat="server" Text="Login" />
         </p>
         <p>
-            &nbsp;</p>
+            <asp:Label ID="Label5" runat="server"></asp:Label>
+        </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="¿No tienes cuenta?"></asp:Label>
         </p>

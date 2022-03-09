@@ -1,0 +1,10 @@
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\bin\Release\AccesoDatos.xml
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.Resources.resources
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.GenerateResource.cache
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.CoreCompileInputs.cache
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.xml
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.pdb
+C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.AssemblyReference.cache

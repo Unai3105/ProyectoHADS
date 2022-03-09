@@ -18,7 +18,7 @@ Public Class AccesodatosSQL
         conexion.Close()
     End Sub
 
-    Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numconfir As Integer, ByVal confirmado As Boolean, ByVal tipo As String, ByVal pass As Integer, ByVal codpass As Integer) As String
+    Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numconfir As Integer, ByVal confirmado As Boolean, ByVal tipo As String, ByVal pass As String, ByVal codpass As Integer) As String
         Dim st = "insert into Usuarios (email, nombre, apellidos, numconfir, confirmado, tipo, pass, codpass) values ( @email,@nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
@@ -54,20 +54,25 @@ Public Class AccesodatosSQL
         Return (rdo)
     End Function
 
-    Public Shared Function actualizarConfir(ByVal email As String, ByVal numBD As String, ByVal numTextBox As String)
-        Dim st = "select * from Usuarios where email = @email"
+    Public Shared Function actualizarConfir(ByVal email As String, ByVal numConf As String)
+        Dim st = "select numconfir from Usuarios where email = @email"
         comando = New SqlCommand(st, conexion)
         comando.Parameters.AddWithValue("@email", email)
 
-        If (numBD = numTextBox) Then
+        Dim reader As SqlDataReader = comando.ExecuteReader()
+        reader.Read()
+        Dim rdo As String = String.Format("{0}", reader(0))
+        reader.Close()
+
+        If (numConf = rdo) Then
             Dim st2 = "update Usuarios set confirmado=@confirm where email=@email"
             comando = New SqlCommand(st2, conexion)
             comando.Parameters.AddWithValue("@confirm", "True")
             comando.Parameters.AddWithValue("@email", email)
             comando.ExecuteNonQuery()
-            MsgBox("Correo confirmado")
+            'MsgBox("Correo confirmado")
         Else
-            MsgBox("Número incorrecto")
+            'MsgBox("Número incorrecto")
         End If
     End Function
 

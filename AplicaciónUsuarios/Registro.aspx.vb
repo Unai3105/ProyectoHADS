@@ -23,8 +23,10 @@ Public Class WebForm2
         Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, password.Text, 123456)
         'MsgBox(msg) 'para mostrar si se ha insertado correctamente
         Funciones.Funciones.enviarCorreoConfirm(correo.Text, numConf)
-        MsgBox("Registro completado correctamente")
-        Response.Redirect("Confirmar.aspx", True)
+        Session("correo") = correo.Text
+        Session("numConf") = numConf
+        'MsgBox("Registro completado correctamente")
+        Label7.Text = "Registro completado correctamente, confirme el correo"
 
     End Sub
 End Class

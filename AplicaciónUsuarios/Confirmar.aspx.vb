@@ -4,16 +4,20 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim result As String
         result = AccesoDatos.AccesodatosSQL.conectar()
-        Label1.Text = result
+        'Dim numBD As String = AccesoDatos.AccesodatosSQL.obtenerNumConfir(TextBox1.Text)
+        Dim correo As String = Session("correo")
+        Dim numConf As String = Session("numConf")
+
+        AccesoDatos.AccesodatosSQL.actualizarConfir(correo, numConf)
+
+        'Response.Redirect("https://hads2224.azurewebsites.net/Inicio.aspx", True)
     End Sub
 
     Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
         AccesoDatos.AccesodatosSQL.cerrarconexion()
     End Sub
 
-    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Dim numBD As String = AccesoDatos.AccesodatosSQL.obtenerNumConfir(TextBox1.Text)
-        AccesoDatos.AccesodatosSQL.actualizarConfir(TextBox1.Text, numBD, TextBox2.Text)
-        Response.Redirect("Inicio.aspx", True)
+    Protected Sub registro_Click(sender As Object, e As EventArgs) Handles registro.Click
+
     End Sub
 End Class

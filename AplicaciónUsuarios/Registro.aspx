@@ -44,6 +44,9 @@
                 <asp:ListItem Value="profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
+        <p>
+            <asp:Label ID="Label7" runat="server"></asp:Label>
+        </p>
         <asp:Button ID="Button1" runat="server" Text="Registrar" />
         <br />
         <br />

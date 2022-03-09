@@ -14,9 +14,10 @@
     Protected Sub login_Click(sender As Object, e As EventArgs) Handles login.Click
         Dim rdo As Integer = AccesoDatos.AccesodatosSQL.loginCorrecto(user.Text, password.Text)
         If (rdo = 0) Then
-            Response.Redirect("Aplicación.aspx", True)
+            Response.Redirect("http://hads2224.azurewebsites.net/Aplicación.aspx", True)
         ElseIf (rdo = 1) Then
-            MsgBox("Contraseña incorrecta")
+            'MsgBox("Contraseña incorrecta")
+            Label5.Text = "Contraseña incorrecta"
         End If
     End Sub
 
@@ -25,6 +26,10 @@
     End Sub
 
     Protected Sub chpass_Click(sender As Object, e As EventArgs) Handles chpass.Click
+
+    End Sub
+
+    Protected Sub registro_Click(sender As Object, e As EventArgs) Handles registro.Click
 
     End Sub
 End Class

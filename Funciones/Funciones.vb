@@ -14,7 +14,7 @@ Public Class Funciones
         With message
             .From = New System.Net.Mail.MailAddress("HADS202204@gmail.com")
             .To.Add(correoDestino)
-            .Body = "El código de confirmación es: " & numConfirm
+            .Body = "Link de confirmación: http://hads2224.azurewebsites.net/Confirmar.aspx"
             .Subject = "Confirmación HADS"
             .IsBodyHtml = False
             .Priority = System.Net.Mail.MailPriority.Normal
