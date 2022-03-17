@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Label ID="Label1" runat="server" Text="LOGIN:"></asp:Label>
+        <asp:Label ID="msgConnection" runat="server"></asp:Label>
         <div>
             <asp:Label ID="Label2" runat="server" Text="Usuario:"></asp:Label>
         </div>
@@ -26,7 +26,7 @@
             <asp:Button ID="login" runat="server" Text="Login" />
         </p>
         <p>
-            <asp:Label ID="Label5" runat="server"></asp:Label>
+            <asp:Label ID="msgErr" runat="server"></asp:Label>
         </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="¿No tienes cuenta?"></asp:Label>

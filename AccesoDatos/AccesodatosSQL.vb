@@ -3,10 +3,10 @@
 Public Class AccesodatosSQL
     Private Shared conexion As New SqlConnection
     Private Shared comando As New SqlCommand
-
+    Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password=Ekaitzaelurra_221018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     Public Shared Function conectar() As String
         Try
-            conexion.ConnectionString = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password={Contraseña};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+            conexion.ConnectionString = ruta
             conexion.Open()
         Catch ex As Exception
             Return "ERROR DE CONEXIÓN: " + ex.Message
@@ -14,12 +14,16 @@ Public Class AccesodatosSQL
         Return "CONEXION OK"
     End Function
 
+    Public Shared Function obtenerRuta() As String
+        Return (ruta)
+    End Function
+
     Public Shared Sub cerrarconexion()
         conexion.Close()
     End Sub
 
     Public Shared Function insertar(ByVal email As String, ByVal nombre As String, ByVal apellidos As String, ByVal numconfir As Integer, ByVal confirmado As Boolean, ByVal tipo As String, ByVal pass As String, ByVal codpass As Integer) As String
-        Dim st = "insert into Usuarios (email, nombre, apellidos, numconfir, confirmado, tipo, pass, codpass) values ( @email,@nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
+        Dim st = "insert into Usuario (email, nombre, apellidos, numconfir, confirmado, tipo, pass, codpass) values ( @email,@nombre, @apellidos, @numconfir, @confirmado, @tipo, @pass, @codpass)"
         Dim numregs As Integer
         comando = New SqlCommand(st, conexion)
 
@@ -42,20 +46,48 @@ Public Class AccesodatosSQL
     End Function
 
     Public Shared Function obtenerNumConfir(ByVal email As String) As String
-        Dim st = "select numconfir from Usuarios where email = @email"
+        Dim st = "select numconfir from Usuario where email = @email"
+
+        comando = New SqlCommand(st, conexion)
+        comando.Parameters.AddWithValue("@email", email)
+        Try
+            Dim reader As SqlDataReader = comando.ExecuteReader()
+            reader.Read()
+            Dim rdo As String = String.Format("{0}", reader(0))
+            reader.Close()
+            Return (rdo)
+        Catch ex As Exception
+            Return ("ERROR: " + ex.Message)
+        End Try
+    End Function
+
+    Public Shared Function obtenerTipo(ByVal email) As String
+        Dim st As String = "select tipo from Usuario where email=@email"
 
         comando = New SqlCommand(st, conexion)
         comando.Parameters.AddWithValue("@email", email)
 
-        Dim reader As SqlDataReader = comando.ExecuteReader()
-        reader.Read()
-        Dim rdo As String = String.Format("{0}", reader(0))
-        reader.Close()
-        Return (rdo)
+        Try
+            Dim reader As SqlDataReader = comando.ExecuteReader()
+            reader.Read()
+            Dim rdo As String = String.Format("{0}", reader(0))
+            reader.Close()
+            Return (rdo)
+        Catch ex As Exception
+            Return ("ERROR: " + ex.Message)
+        End Try
     End Function
 
+
+    Public Shared Function cargarTablaTareaGenerica()
+
+
+    End Function
+
+
+
     Public Shared Function actualizarConfir(ByVal email As String, ByVal numConf As String)
-        Dim st = "select numconfir from Usuarios where email = @email"
+        Dim st = "select numconfir from Usuario where email = @email"
         comando = New SqlCommand(st, conexion)
         comando.Parameters.AddWithValue("@email", email)
 
@@ -65,7 +97,7 @@ Public Class AccesodatosSQL
         reader.Close()
 
         If (numConf = rdo) Then
-            Dim st2 = "update Usuarios set confirmado=@confirm where email=@email"
+            Dim st2 = "update Usuario set confirmado=@confirm where email=@email"
             comando = New SqlCommand(st2, conexion)
             comando.Parameters.AddWithValue("@confirm", "True")
             comando.Parameters.AddWithValue("@email", email)
@@ -79,7 +111,7 @@ Public Class AccesodatosSQL
     Public Shared Function loginCorrecto(ByVal email As String, ByVal password As String) As Integer
         Dim st As String
         Try
-            st = "select pass from Usuarios where email=@email"
+            st = "select pass from Usuario where email=@email"
             comando = New SqlCommand(st, conexion)
             comando.Parameters.AddWithValue("@email", email)
             Dim reader As SqlDataReader = comando.ExecuteReader()

@@ -9,7 +9,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>C:\Users\uroa3\Desktop\Unai\Deberes Unai\Ingenieria infor curso 3\2º cuatrimestre\HADS\Proyecto\HADS\AplicaciónUsuarios\My Project\PublishProfiles\HADS2224 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\uroa3\Desktop\Proyecto\HADS\AplicaciónUsuarios\My Project\PublishProfiles\HADS2224 - FTP.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

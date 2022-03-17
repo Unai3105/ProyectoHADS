@@ -23,13 +23,13 @@ Partial Public Class WebForm1
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control Label1.
+    '''Control msgConnection.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents msgConnection As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control Label2.
@@ -95,13 +95,13 @@ Partial Public Class WebForm1
     Protected WithEvents login As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control Label5.
+    '''Control msgErr.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Label5 As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents msgErr As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control Label4.

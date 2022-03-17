@@ -4,7 +4,7 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim result As String
         result = AccesoDatos.AccesodatosSQL.conectar()
-        Label1.Text = result
+        msgConnection.Text = result
     End Sub
 
     Protected Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Unload
@@ -14,10 +14,17 @@
     Protected Sub login_Click(sender As Object, e As EventArgs) Handles login.Click
         Dim rdo As Integer = AccesoDatos.AccesodatosSQL.loginCorrecto(user.Text, password.Text)
         If (rdo = 0) Then
-            Response.Redirect("http://hads2224.azurewebsites.net/Aplicación.aspx", True)
+            Session("email") = user.Text
+            Session("tipo") = AccesoDatos.AccesodatosSQL.obtenerTipo(user.Text)
+            Session("ruta") = AccesoDatos.AccesodatosSQL.obtenerRuta()
+            If Session("tipo") = "Alumno" Then
+                Response.Redirect("Alumno.aspx")
+            ElseIf Session("tipo") = "Profesor" Then
+                Response.Redirect("Profesor.aspx")
+            End If
         ElseIf (rdo = 1) Then
             'MsgBox("Contraseña incorrecta")
-            Label5.Text = "Contraseña incorrecta"
+            msgErr.Text = "Contraseña incorrecta"
         End If
     End Sub
 

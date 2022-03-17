@@ -7,5 +7,59 @@ edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA4M4ZUGf17E6m3ztCXaaLnAAAAAACAAAAAAAQZgAAAAEAACAAAACdzFTXPSdY4ZxLip/8TumratZz1Irkdfzs5ZainbA0sgAAAAAOgAAAAAIAACAAAACZGD+yUh5tZ1mVF6gAyIkfAq84mRliIW57MZA9rQva+IAAAACKW5/ZS4BfXA09Q2+eTPzfztAl4iYdTM/YqgZvBgxKT/GxtYxhEHW4UOmda/aiwtxv/n3kdMBNXJPVxzSHa3lTaFeYgoiVFjJOJG0xTo3JMBwoaxfF99OgIurScSXWldxziAtB+86+6xY24YfYf5Pj7Tdk8W27i/ncvT0WE/9plEAAAADhe7sYBuMxtsdIRGEjfwLm70WEi+eoCbDE0t1p0ysz6Fy1Hqq+9yDCCxJZNXK5eO0dNy9LPj8U6td4CNSajavN</EncryptedPassword>
+    <_PublishTargetUrl>ftp://waws-prod-am2-535.ftp.azurewebsites.windows.net/site/wwwroot</_PublishTargetUrl>
   </PropertyGroup>
+  <ItemGroup>
+    <File Include="Alumno.aspx">
+      <publishTime>03/16/2022 14:55:02</publishTime>
+    </File>
+    <File Include="Aplicación.aspx">
+      <publishTime>02/17/2022 01:27:22</publishTime>
+    </File>
+    <File Include="bin/AccesoDatos.dll">
+      <publishTime>03/17/2022 12:56:22</publishTime>
+    </File>
+    <File Include="bin/AccesoDatos.pdb">
+      <publishTime>03/17/2022 12:56:22</publishTime>
+    </File>
+    <File Include="bin/AplicaciónUsuarios.dll">
+      <publishTime>03/17/2022 12:56:22</publishTime>
+    </File>
+    <File Include="bin/AplicaciónUsuarios.pdb">
+      <publishTime>03/17/2022 12:56:22</publishTime>
+    </File>
+    <File Include="bin/AplicaciónUsuarios.xml">
+      <publishTime>03/17/2022 12:56:22</publishTime>
+    </File>
+    <File Include="Confirmar.aspx">
+      <publishTime>03/09/2022 13:40:16</publishTime>
+    </File>
+    <File Include="GestionarTareas.aspx">
+      <publishTime>03/16/2022 15:54:51</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/09/2022 12:41:42</publishTime>
+    </File>
+    <File Include="Inicio.aspx">
+      <publishTime>03/16/2022 15:44:00</publishTime>
+    </File>
+    <File Include="InsertarTarea.aspx">
+      <publishTime>03/16/2022 14:34:17</publishTime>
+    </File>
+    <File Include="InstanciarTarea.aspx">
+      <publishTime>03/16/2022 14:34:18</publishTime>
+    </File>
+    <File Include="Profesor.aspx">
+      <publishTime>03/16/2022 15:05:55</publishTime>
+    </File>
+    <File Include="Registro.aspx">
+      <publishTime>03/09/2022 12:53:35</publishTime>
+    </File>
+    <File Include="VerTareasEstudiante.aspx">
+      <publishTime>03/16/2022 14:34:19</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/17/2022 12:56:25</publishTime>
+    </File>
+  </ItemGroup>
 </Project>
