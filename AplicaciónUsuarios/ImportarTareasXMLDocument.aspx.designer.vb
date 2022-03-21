@@ -11,7 +11,7 @@ Option Strict On
 Option Explicit On
 
 
-Partial Public Class WebForm8
+Partial Public Class ImportarTareasXMLDocuments
 
     '''<summary>
     '''Control form1.
@@ -23,58 +23,31 @@ Partial Public Class WebForm8
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control LinkButton2.
+    '''Control Label1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents LinkButton2 As Global.System.Web.UI.WebControls.LinkButton
+    Protected WithEvents Label1 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control codigoBox.
+    '''Control DropDownList1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents codigoBox As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control descripcionBox.
+    '''Control GridView1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents descripcionBox As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control DropDownListAsign.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownListAsign As Global.System.Web.UI.WebControls.DropDownList
-
-    '''<summary>
-    '''Control hEstimadasBox.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents hEstimadasBox As Global.System.Web.UI.WebControls.TextBox
-
-    '''<summary>
-    '''Control DropDownListTipoTarea.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents DropDownListTipoTarea As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
 
     '''<summary>
     '''Control Button1.
@@ -86,13 +59,13 @@ Partial Public Class WebForm8
     Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control CambiosGuardados.
+    '''Control XMLImportado.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents CambiosGuardados As Global.System.Web.UI.WebControls.Label
+    Protected WithEvents XMLImportado As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
     '''Control SqlDataSource1.
@@ -102,4 +75,13 @@ Partial Public Class WebForm8
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents SqlDataSource1 As Global.System.Web.UI.WebControls.SqlDataSource
+
+    '''<summary>
+    '''Control SqlDataSource2.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents SqlDataSource2 As Global.System.Web.UI.WebControls.SqlDataSource
 End Class

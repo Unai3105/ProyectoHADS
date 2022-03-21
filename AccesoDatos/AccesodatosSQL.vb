@@ -3,7 +3,7 @@
 Public Class AccesodatosSQL
     Private Shared conexion As New SqlConnection
     Private Shared comando As New SqlCommand
-    Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password=Ekaitzaelurra_221018;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     Public Shared Function conectar() As String
         Try
             conexion.ConnectionString = ruta
@@ -77,14 +77,6 @@ Public Class AccesodatosSQL
             Return ("ERROR: " + ex.Message)
         End Try
     End Function
-
-
-    Public Shared Function cargarTablaTareaGenerica()
-
-
-    End Function
-
-
 
     Public Shared Function actualizarConfir(ByVal email As String, ByVal numConf As String)
         Dim st = "select numconfir from Usuario where email = @email"

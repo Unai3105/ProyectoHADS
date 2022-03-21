@@ -8,4 +8,8 @@
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Response.Redirect("GestionarTareas.aspx")
     End Sub
+
+    Protected Sub LinkButton2_Click(sender As Object, e As EventArgs) Handles LinkButton2.Click
+        Response.Redirect("ImportarTareasXMLDocument.aspx")
+    End Sub
 End Class

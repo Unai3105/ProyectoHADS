@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes" ?>
+<tareas  xmlns:has="http://ji.ehu.es/has">
+  <tarea codigo= "HAS22-Test1">
+    <descripcion>Test 1 de la asignatura</descripcion>
+    <hestimadas>1</hestimadas>
+    <tipotarea>Examen</tipotarea>
+	<explotacion>false</explotacion>
+  </tarea>
+  <tarea codigo="HAS22-Lab4">
+    <descripcion>Laboratorio sobre XML</descripcion>
+    <hestimadas>12</hestimadas>
+    <tipotarea>Laboratorio</tipotarea>
+	<explotacion>true</explotacion>
+  </tarea>
+</tareas>

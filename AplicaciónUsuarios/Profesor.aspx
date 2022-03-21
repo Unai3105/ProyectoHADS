@@ -10,6 +10,12 @@
 <body>
     <form id="form1" runat="server">
         <asp:LinkButton ID="LinkButton1" runat="server">Gestionar Tareas</asp:LinkButton>
+        <p>
+            <asp:LinkButton ID="LinkButton2" runat="server"> Importar XML Document</asp:LinkButton>
+        </p>
+        <p>
+            <asp:LinkButton ID="LinkButton3" runat="server">Exportar</asp:LinkButton>
+        </p>
     </form>
 </body>
 </html>
