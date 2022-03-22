@@ -10,7 +10,21 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ALUMNOS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:LinkButton ID="LinkButton1" runat="server">Cerrar Sesión</asp:LinkButton>
+            <br />
+            GESTIÓN DE TAREAS GENÉRICAS<br />
+            <br />
+            <br />
+            Seleccionar Asignatura (solo se muestran aquellas en las que está matriculado):<br />
+            <br />
+            <asp:DropDownList ID="DropDownListAsig" runat="server" AutoPostBack="True">
+            </asp:DropDownList>
+            <br />
+            <br />
         </div>
+        <asp:GridView ID="GridView1" runat="server">
+        </asp:GridView>
     </form>
 </body>
 </html>

@@ -12,4 +12,14 @@
 
 ========== ENTREGA 2 ========== 
 
+[Done] En profesor utilizar correctamente SqlDataSource y
+	 enlazarlos al DropDownList y al GridView
+
+[Done] Repasar el insertarTarea
+
+[Done] Completar VerTareasEstudiante con SqlDataAdapter,
+	 DataSet y DataTable
+
+[] Poner en funcionamienton InstanciarTarea
+
 ========== ENTREGA 3 ========== 

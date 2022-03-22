@@ -122,4 +122,24 @@ Public Class AccesodatosSQL
         End Try
 
     End Function
+
+    Public Shared Function obtenerAsigAlumno(ByVal ruta As String, ByVal email As String) As SqlDataAdapter
+
+        Dim conClsf As SqlConnection
+        conClsf = New SqlConnection(ruta)
+
+        Dim dapMbrs As New SqlDataAdapter()
+        Dim dstMbrs As New DataSet
+        Dim tblMbrs As New DataTable
+
+        dapMbrs = New SqlDataAdapter("Select grupo From EstudianteGrupo Where email = " & email, conClsf)
+        Dim bldMbrs As New SqlCommandBuilder(dapMbrs)
+
+        dapMbrs.Fill(dstMbrs, "Tarea")
+        tblMbrs = dstMbrs.Tables("Tarea")
+
+        Dim rowMbrs As DataRow = tblMbrs.NewRow()
+        tblMbrs.Rows.Add(rowMbrs)
+
+    End Function
 End Class

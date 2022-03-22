@@ -21,4 +21,22 @@ Partial Public Class WebForm9
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+
+    '''<summary>
+    '''Control LinkButtonVerTareas.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LinkButtonVerTareas As Global.System.Web.UI.WebControls.LinkButton
+
+    '''<summary>
+    '''Control LinkButtonInstanciarTarea.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents LinkButtonInstanciarTarea As Global.System.Web.UI.WebControls.LinkButton
 End Class

@@ -38,8 +38,8 @@ Public Class WebForm8
         rowMbrs("tipoTarea") = DropDownListTipoTarea.SelectedValue
         tblMbrs.Rows.Add(rowMbrs)
 
-        dapMbrs = Session("adaptador")
-        dstMbrs = Session("datos")
+        Session("adaptador") = dapMbrs
+        Session("datos") = dstMbrs
         dapMbrs.Update(dstMbrs, "Tarea")
         dstMbrs.AcceptChanges()
         CambiosGuardados.Text = "Cambios guardados en la BD"
@@ -51,5 +51,9 @@ Public Class WebForm8
 
     Protected Sub LinkButton2_Click(sender As Object, e As EventArgs) Handles LinkButton2.Click
         Response.Redirect("GestionarTareas.aspx")
+    End Sub
+
+    Protected Sub descripcionBox_TextChanged(sender As Object, e As EventArgs) Handles descripcionBox.TextChanged
+
     End Sub
 End Class
