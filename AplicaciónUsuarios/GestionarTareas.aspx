@@ -23,7 +23,7 @@
             </asp:DropDownList>
             <br />
             <br />
-            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="codigo" DataSourceID="SqlDataSource2" AllowSorting="True">
+            <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="codigo" DataSourceID="SqlDataSource2" AllowSorting="True" AutoGenerateEditButton="True">
                 <Columns>
                     <asp:BoundField DataField="codigo" HeaderText="codigo" ReadOnly="True" SortExpression="codigo"></asp:BoundField>
                     <asp:BoundField DataField="descripcion" HeaderText="descripcion" SortExpression="descripcion"></asp:BoundField>

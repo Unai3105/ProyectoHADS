@@ -29,4 +29,8 @@ Public Class WebForm2
         Label7.Text = "Registro completado correctamente, confirme el correo"
 
     End Sub
+
+    Protected Sub password_TextChanged(sender As Object, e As EventArgs) Handles password.TextChanged
+
+    End Sub
 End Class

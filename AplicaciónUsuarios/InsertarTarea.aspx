@@ -43,7 +43,7 @@
         <p>
             &nbsp;</p>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="Añadir Tarea" />
+            <asp:Button ID="Button1" runat="server" Text="Añadir Tarea" style="height: 26px" />
         </p>
         <p>
             <asp:Label ID="CambiosGuardados" runat="server" ForeColor="Lime"></asp:Label>

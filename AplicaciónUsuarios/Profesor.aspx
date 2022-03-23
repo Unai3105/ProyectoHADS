@@ -9,6 +9,8 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        PROFESOR<br />
+        <br />
         <asp:LinkButton ID="LinkButton1" runat="server">Gestionar Tareas</asp:LinkButton>
         <p>
             <asp:LinkButton ID="LinkButton2" runat="server"> Importar XML Document</asp:LinkButton>

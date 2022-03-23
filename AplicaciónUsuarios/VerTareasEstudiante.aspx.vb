@@ -39,11 +39,15 @@ Public Class WebForm6
         Dim expl As Boolean = False
         Dim asignatura As String = DropDownListAsig.SelectedValue
         dapMbrs2 = New SqlDataAdapter("Select codigo, descripcion, hEstimadas, tipoTarea From TareaGenerica Where explotacion = '" & expl & "' and codAsig = '" & asignatura & "'", conClsf)
-        dapMbrs2.Fill(dstMbrs2, "Asignaturas")
-        tblMbrs2 = dstMbrs2.Tables("Asignaturas")
+        dapMbrs2.Fill(dstMbrs2, "Tareas")
+        tblMbrs2 = dstMbrs2.Tables("Tareas")
 
         GridView1.DataSource = dstMbrs2.Tables(0)
         GridView1.DataBind()
+
+        GridView1.AllowSorting = True
+        GridView1.AutoGenerateSelectButton = True
+
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
@@ -54,4 +58,12 @@ Public Class WebForm6
     Protected Sub DropDownListAsig_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownListAsig.SelectedIndexChanged
 
     End Sub
+
+    Protected Sub GridView_SelectedIndexChanged(sender As Object, e As EventArgs) Handles GridView1.SelectedIndexChanged
+        Session("codTareaInstanciar") = GridView1.Rows(GridView1.SelectedIndex).Cells(1).Text
+        Session("hEstimadas") = GridView1.Rows(GridView1.SelectedIndex).Cells(3).Text
+
+        Response.Redirect(“InstanciarTarea.aspx")
+    End Sub
+
 End Class
