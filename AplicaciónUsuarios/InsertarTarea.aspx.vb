@@ -40,6 +40,7 @@ Public Class WebForm8
 
         Session("adaptador") = dapMbrs
         Session("datos") = dstMbrs
+
         dapMbrs.Update(dstMbrs, "Tarea")
         dstMbrs.AcceptChanges()
         CambiosGuardados.Text = "Cambios guardados en la BD"

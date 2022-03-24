@@ -46,13 +46,13 @@ Public Class WebForm7
         Dim tblMbrs = dstMbrs.Tables("TareasEstudiante")
         Dim rowMbrs As DataRow = tblMbrs.NewRow()
         rowMbrs("email") = Session("email")
-        rowMbrs("codTarea") = Session("codTAreaInstanciar")
+        rowMbrs("codTarea") = Session("codTareaInstanciar")
         rowMbrs("hEstimadas") = Session("hEstimadas")
         rowMbrs("hReales") = TextBox4.Text
         tblMbrs.Rows.Add(rowMbrs)
 
         Dim encontrado = False
-        Dim texto As String = Session("codTAreaInstanciar")
+        Dim texto As String = Session("codTareaInstanciar")
         Dim i As Integer
 
         For i = 0 To GridView1.Rows.Count - 1

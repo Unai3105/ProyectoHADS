@@ -26,7 +26,7 @@
             <asp:Button ID="login" runat="server" Text="Login" />
         </p>
         <p>
-            <asp:Label ID="msgErr" runat="server"></asp:Label>
+            <asp:Label ID="msgErr" runat="server" ForeColor="Black"></asp:Label>
         </p>
         <p>
             <asp:Label ID="Label4" runat="server" Text="¿No tienes cuenta?"></asp:Label>

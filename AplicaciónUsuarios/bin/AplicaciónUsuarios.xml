@@ -46,6 +46,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._Label1">
 <summary>
 Control Label1.
@@ -85,24 +94,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._XMLImportado">
 <summary>
 Control XMLImportado.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._SqlDataSource1">
-<summary>
-Control SqlDataSource1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._SqlDataSource2">
-<summary>
-Control SqlDataSource2.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -337,15 +328,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.WebForm9._LinkButtonVerTareas">
 <summary>
 Control LinkButtonVerTareas.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:AplicaciónUsuarios.WebForm9._LinkButtonInstanciarTarea">
-<summary>
-Control LinkButtonInstanciarTarea.
 </summary>
 <remarks>
 Campo generado automáticamente.
