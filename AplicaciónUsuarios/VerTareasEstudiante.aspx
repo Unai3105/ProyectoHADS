@@ -26,6 +26,8 @@
         <asp:GridView ID="GridView1" runat="server">
         </asp:GridView>
         <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Alumno.aspx">Volver</asp:HyperLink>
+        <br />
     </form>
 </body>
 </html>

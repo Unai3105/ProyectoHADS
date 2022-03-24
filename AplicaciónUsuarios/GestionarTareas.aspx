@@ -36,7 +36,7 @@
             <asp:Button ID="Button1" runat="server" Text="Insertar Nueva Tarea" />
             <br />
             <br />
-            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2204ConnectionString %>" SelectCommand="Select codigoAsig
+            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:hads2204/HADS22-04.dbo %>" SelectCommand="Select codigoAsig
 From GrupoClase Join ProfesorGrupo On GrupoClase.codigo = ProfesorGrupo.codigoGrupo
 Where ProfesorGrupo.email = @email">
                 <SelectParameters>
@@ -44,7 +44,7 @@ Where ProfesorGrupo.email = @email">
                 </SelectParameters>
             </asp:SqlDataSource>
             <br />
-            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:HADS2204ConnectionString %>" SelectCommand="Select codigo, descripcion, hEstimadas, tipoTarea
+            <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:hads2204/HADS22-04.dbo %>" SelectCommand="Select codigo, descripcion, hEstimadas, tipoTarea
 From TareaGenerica
 Where codAsig = @codigo">
                 <SelectParameters>

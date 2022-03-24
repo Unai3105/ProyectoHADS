@@ -18,6 +18,11 @@
         <p>
             <asp:LinkButton ID="LinkButton3" runat="server">Exportar</asp:LinkButton>
         </p>
+        <p>
+            &nbsp;</p>
+        <p>
+            <asp:LinkButton ID="LinkButton4" runat="server">Cerrar sesión</asp:LinkButton>
+        </p>
     </form>
 </body>
 </html>

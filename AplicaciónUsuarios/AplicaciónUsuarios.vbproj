@@ -102,6 +102,7 @@
   <ItemGroup>
     <Content Include="App_Data\HAS.xml" />
     <Content Include="App_Data\SEG.xml" />
+    <Content Include="ExportarTareasXMLDocument.aspx" />
     <Content Include="Global.asax" />
     <Content Include="ImportarTareasXMLDocument.aspx" />
     <Content Include="Web.config" />
@@ -117,6 +118,13 @@
     <Content Include="Profesor.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExportarTareasXMLDocument.aspx.designer.vb">
+      <DependentUpon>ExportarTareasXMLDocument.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarTareasXMLDocument.aspx.vb">
+      <DependentUpon>ExportarTareasXMLDocument.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -233,6 +241,8 @@
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
     </None>
+    <None Include="My Project\PublishProfiles\hads22-04 - FTP.pubxml" />
+    <None Include="My Project\PublishProfiles\hads22-04 - Web Deploy.pubxml" />
     <None Include="My Project\PublishProfiles\HADS2224 - FTP.pubxml" />
     <None Include="My Project\PublishProfiles\HADS2224 - Web Deploy.pubxml" />
     <None Include="My Project\Settings.settings">

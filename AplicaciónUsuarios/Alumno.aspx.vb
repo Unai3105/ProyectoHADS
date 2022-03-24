@@ -6,6 +6,7 @@
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButtonVerTareas.Click
-        Response.Redirect("VerTareasEstudiante.aspx")
+        'Response.Redirect("VerTareasEstudiante.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/VerTareaEstudiante.aspx")
     End Sub
 End Class

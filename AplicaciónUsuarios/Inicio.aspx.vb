@@ -18,9 +18,11 @@
             Session("tipo") = AccesoDatos.AccesodatosSQL.obtenerTipo(user.Text)
             Session("ruta") = AccesoDatos.AccesodatosSQL.obtenerRuta()
             If Session("tipo") = "Alumno" Then
-                Response.Redirect("Alumno.aspx")
+                'Response.Redirect("Alumno.aspx")
+                Response.Redirect("http://hads22-04.azurewebsites.net/Alumno.aspx")
             ElseIf Session("tipo") = "Profesor" Then
-                Response.Redirect("Profesor.aspx")
+                'Response.Redirect("Profesor.aspx")
+                Response.Redirect("http://hads22-04.azurewebsites.net/Profesor.aspx")
             End If
         ElseIf (rdo = 1) Then
             'MsgBox("Contraseña incorrecta")

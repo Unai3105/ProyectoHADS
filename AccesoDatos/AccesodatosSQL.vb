@@ -3,7 +3,8 @@
 Public Class AccesodatosSQL
     Private Shared conexion As New SqlConnection
     Private Shared comando As New SqlCommand
-    Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    'Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    Private Shared ruta As String = “Server=tcp:hads2204.database.windows.net,1433;Initial Catalog=HADS22-04;Persist Security Info=False;User ID=mmorillo005@ikasle.ehu.eus@hads2204;Password=Hads2122;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     Public Shared Function conectar() As String
         Try
             conexion.ConnectionString = ruta

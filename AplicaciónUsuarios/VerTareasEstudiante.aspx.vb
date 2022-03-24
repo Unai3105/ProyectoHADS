@@ -52,7 +52,8 @@ Public Class WebForm6
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Session.Clear()
-        Response.Redirect("Inicio.aspx")
+        'Response.Redirect("Inicio.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
     End Sub
 
     Protected Sub DropDownListAsig_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownListAsig.SelectedIndexChanged

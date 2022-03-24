@@ -9,8 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
-            alumno</div>
+        ALUMNO<br />
+        <br />
+        <asp:LinkButton ID="LinkButtonVerTareas" runat="server">Ver Tareas</asp:LinkButton>
+        <br />
     </form>
 </body>
 </html>

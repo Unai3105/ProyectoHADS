@@ -34,7 +34,8 @@ Public Class WebForm7
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
-        Response.Redirect(“VerTareasEstudiante.aspx")
+        'Response.Redirect(“VerTareasEstudiante.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/VerTareasEstudiante.aspx")
     End Sub
 
     Protected Sub Button1_Click1(sender As Object, e As EventArgs) Handles Button1.Click
