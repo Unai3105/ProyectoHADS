@@ -28,3 +28,13 @@ C:\Users\usuario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj
 C:\Users\usuario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.dll
 C:\Users\usuario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.xml
 C:\Users\usuario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.pdb
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.AssemblyReference.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.Resources.resources
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.GenerateResource.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.CoreCompileInputs.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.pdb

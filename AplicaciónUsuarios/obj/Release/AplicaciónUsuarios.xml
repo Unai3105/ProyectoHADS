@@ -424,6 +424,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:AplicaciónUsuarios.WebForm9._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:AplicaciónUsuarios.WebForm10._form1">
 <summary>
 Control form1.
@@ -796,6 +805,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.WebForm2._Button1">
 <summary>
 Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._HyperLink1">
+<summary>
+Control HyperLink1.
 </summary>
 <remarks>
 Campo generado automáticamente.

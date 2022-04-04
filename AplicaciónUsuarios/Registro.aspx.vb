@@ -1,4 +1,5 @@
 ﻿Imports AccesoDatos
+'Imports System.Security.Cryptography
 Public Class WebForm2
     Inherits System.Web.UI.Page
 
@@ -20,7 +21,9 @@ Public Class WebForm2
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         Dim numConf As Integer = Funciones.Funciones.randomNumConf()
-        Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, password.Text, 123456)
+        Dim wrapper As New Simple3Des(password.Text)
+        Dim hash As String = wrapper.encryptData(password.Text)
+        Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, hash, 123456)
         'MsgBox(msg) 'para mostrar si se ha insertado correctamente
         Funciones.Funciones.enviarCorreoConfirm(correo.Text, numConf)
         Session("correo") = correo.Text

@@ -40,8 +40,8 @@
         <p>
             <asp:Label ID="Rol" runat="server" Text="Rol:"></asp:Label>
             <asp:DropDownList ID="Tipo" runat="server">
-                <asp:ListItem Value="alumno">Alumno</asp:ListItem>
-                <asp:ListItem Value="profesor">Profesor</asp:ListItem>
+                <asp:ListItem Value="Alumno">Alumno</asp:ListItem>
+                <asp:ListItem Value="Profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
         <p>
@@ -49,6 +49,8 @@
         </p>
         <asp:Button ID="Button1" runat="server" Text="Registrar" />
         <br />
+        <br />
+        <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Inicio</asp:HyperLink>
         <br />
     </form>
 </body>

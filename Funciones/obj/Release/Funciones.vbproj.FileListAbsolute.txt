@@ -18,3 +18,13 @@ C:\Users\usuario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.vbproj.Cor
 C:\Users\usuario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.dll
 C:\Users\usuario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.xml
 C:\Users\usuario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.pdb
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\bin\Release\Funciones.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\bin\Release\Funciones.pdb
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\bin\Release\Funciones.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.vbproj.AssemblyReference.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.Resources.resources
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.vbproj.GenerateResource.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.vbproj.CoreCompileInputs.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\Funciones\obj\Release\Funciones.pdb
