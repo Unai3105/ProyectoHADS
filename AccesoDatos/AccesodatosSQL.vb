@@ -4,9 +4,8 @@ Imports System.Security.Cryptography
 Public Class AccesodatosSQL
     Private Shared conexion As New SqlConnection
     Private Shared comando As New SqlCommand
-    'Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-    Private Shared ruta As String = “Server=tcp:hads2204.database.windows.net,1433;Initial Catalog=HADS22-04;Persist Security Info=False;User ID=mmorillo005@ikasle.ehu.eus@hads2204;Password=Hads2122;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-    'Private Shared tripleDes As New TripleDESCryptoServiceProvider
+    Private Shared ruta As String = “Server=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=False;User ID=uroa002@ikasle.ehu.es@hads-2204;Password="";MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+    'Private Shared ruta As String = “Server=tcp:hads2204.database.windows.net,1433;Initial Catalog=HADS22-04;Persist Security Info=False;User ID=mmorillo005@ikasle.ehu.eus@hads2204;Password=Hads2122;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
     Public Shared Function conectar() As String
         Try
             conexion.ConnectionString = ruta
@@ -121,7 +120,7 @@ Public Class AccesodatosSQL
                 Return 1
             End If
         Catch
-            MsgBox("Correo no registrado")
+            'MsgBox("Correo no registrado")
             Return 2
         End Try
 
@@ -163,53 +162,4 @@ Public Class AccesodatosSQL
             Return ("ERROR: " + ex.Message)
         End Try
     End Function
-
-    'Public Shared Function encryptData(ByVal texto As String) As String
-    '    Dim textoBytes() As Byte = System.Text.Encoding.Unicode.GetBytes(texto)
-    '    Dim ms As New System.IO.MemoryStream
-    '    Dim encStream As New CryptoStream(ms, tripleDes.CreateEncryptor(), System.Security.Cryptography.CryptoStreamMode.Write)
-
-    '    encStream.Write(textoBytes, 0, textoBytes.Length)
-    '    encStream.FlushFinalBlock()
-
-    '    Return Convert.ToBase64String(ms.ToArray)
-    'End Function
-
-    'Public Shared Function decryptData(ByVal hash As String) As String
-    '    Dim hashBytes() As Byte = Convert.FromBase64String(hash)
-    '    Dim ms As New System.IO.MemoryStream
-    '    Dim decStream As New CryptoStream(ms, tripleDes.CreateDecryptor(), System.Security.Cryptography.CryptoStreamMode.Write)
-
-    '    decStream.Write(hashBytes, 0, hashBytes.Length)
-    '    decStream.FlushFinalBlock()
-
-    '    Return System.Text.Encoding.Unicode.GetString(ms.ToArray)
-    'End Function
-
-    'Private Function TruncateHash(ByVal key As String, ByVal length As Integer) As Byte()
-    '    Dim sha1 As New SHA1CryptoServiceProvider
-
-    '    Dim keyBytes() As Byte = System.Text.Encoding.Unicode.GetBytes(key)
-    '    Dim hash() As Byte = sha1.ComputeHash(keyBytes)
-
-    '    ReDim Preserve hash(length - 1)
-    '    Return hash
-    'End Function
-
-    'Sub New(ByVal key As String)
-    '    tripleDes.Key = TruncateHash(key, tripleDes.KeySize \ 8)
-    '    tripleDes.IV = TruncateHash("", tripleDes.BlockSize \ 8)
-    'End Sub
-
-
-
-
-
-
-
-
-
-
-
-    'https://docs.microsoft.com/es-es/dotnet/visual-basic/programming-guide/language-features/strings/walkthrough-encrypting-and-decrypting-strings
 End Class

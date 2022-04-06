@@ -23,7 +23,7 @@ Public Class WebForm2
         Dim numConf As Integer = Funciones.Funciones.randomNumConf()
         Dim wrapper As New Simple3Des(password.Text)
         Dim hash As String = wrapper.encryptData(password.Text)
-        Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, hash, 123456)
+        Dim msg As String = AccesoDatos.AccesodatosSQL.insertar(correo.Text, nombre.Text, apellidos.Text, numConf, False, Tipo.Text, hash, 0)
         'MsgBox(msg) 'para mostrar si se ha insertado correctamente
         Funciones.Funciones.enviarCorreoConfirm(correo.Text, numConf)
         Session("correo") = correo.Text
@@ -34,6 +34,10 @@ Public Class WebForm2
     End Sub
 
     Protected Sub password_TextChanged(sender As Object, e As EventArgs) Handles password.TextChanged
+
+    End Sub
+
+    Protected Sub Tipo_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Tipo.SelectedIndexChanged
 
     End Sub
 End Class

@@ -135,6 +135,7 @@ Public Class ImportarTareasXMLDocuments
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
-        Response.Redirect("Profesor.aspx")
+        Response.Redirect("Profesor/Profesor.aspx")
+        'Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/Profesor.aspx")
     End Sub
 End Class

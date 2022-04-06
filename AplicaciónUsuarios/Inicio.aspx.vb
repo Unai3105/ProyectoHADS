@@ -23,43 +23,25 @@ Public Class WebForm1
                 Session("tipo") = AccesoDatos.AccesodatosSQL.obtenerTipo(user.Text)
                 Session("ruta") = AccesoDatos.AccesodatosSQL.obtenerRuta()
                 If Session("tipo") = "Alumno" Then
-                    'Response.Redirect("Alumno.aspx")
                     FormsAuthentication.SetAuthCookie("Alumno", True)
-                    Response.Redirect("http://hads22-04.azurewebsites.net/Alumno/Alumno.aspx")
+                    Response.Redirect("Alumno/Alumno.aspx")
+                    'Response.Redirect("http://hads22-04.azurewebsites.net/Alumno/Alumno.aspx")
                 ElseIf Session("tipo") = "Profesor" Then
-                    'Response.Redirect("Profesor.aspx")
                     FormsAuthentication.SetAuthCookie("Profesor", True)
-                    Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/Profesor.aspx")
+                    Response.Redirect("Profesor/Profesor.aspx")
+                    'Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/Profesor.aspx")
                 ElseIf Session("tipo") = "Coordinador" Then
-                    'Response.Redirect("Profesor.aspx")
                     FormsAuthentication.SetAuthCookie("Coordinador", True)
-                    Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/Profesor.aspx")
+                    Response.Redirect("Profesor/Profesor.aspx")
+                    'Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/Profesor.aspx")
                 End If
             Else
                 'MsgBox("Contraseña incorrecta")
                 msgErr.Text = "Contraseña incorrecta"
             End If
         Catch ex As Exception
-            msgErr.Text = "ERROR"
+            msgErr.Text = "ERROR:" & ex.Message
         End Try
-        'Dim hash2 As String = AccesoDatos.Simple3Des.decryptData(hash)
-        ''Dim rdo As Integer = AccesoDatos.AccesodatosSQL.loginCorrecto(user.Text, password.Text)
-        'If (hash2 = password.Text) Then
-        '    Session("email") = user.Text
-        '    Session("tipo") = AccesoDatos.AccesodatosSQL.obtenerTipo(user.Text)
-        '    Session("ruta") = AccesoDatos.AccesodatosSQL.obtenerRuta()
-        '    If Session("tipo") = "Alumno" Then
-        '        'Response.Redirect("Alumno.aspx")
-        '        FormsAuthentication.SetAuthCookie("Alumno", True)
-        '        Response.Redirect("http://hads22-04.azurewebsites.net/Alumno.aspx")
-        '    ElseIf Session("tipo") = "Profesor" Then
-        '        'Response.Redirect("Profesor.aspx")
-        '        Response.Redirect("http://hads22-04.azurewebsites.net/Profesor.aspx")
-        '    End If
-        'Else
-        '    'MsgBox("Contraseña incorrecta")
-        '    msgErr.Text = "Contraseña incorrecta"
-        'End If
     End Sub
 
     Protected Sub password_TextChanged(sender As Object, e As EventArgs) Handles password.TextChanged

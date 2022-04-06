@@ -38,4 +38,8 @@ Public Class ExportarTareasXMLDocument
 
         XMLExportado.Text = "XML exportado con exito"
     End Sub
+
+    Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList1.SelectedIndexChanged
+
+    End Sub
 End Class
