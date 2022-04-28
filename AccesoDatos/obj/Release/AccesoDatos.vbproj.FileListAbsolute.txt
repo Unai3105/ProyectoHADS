@@ -38,3 +38,13 @@ C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vb
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.dll
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.xml
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.pdb
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.dll
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.pdb
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Release\AccesoDatos.xml
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.AssemblyReference.cache
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.Resources.resources
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.GenerateResource.cache
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.vbproj.CoreCompileInputs.cache
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.dll
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.xml
+C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Release\AccesoDatos.pdb

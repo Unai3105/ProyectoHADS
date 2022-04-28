@@ -19,7 +19,18 @@
             <asp:LinkButton ID="LinkButton3" runat="server">Exportar</asp:LinkButton>
         </p>
         <p>
-            &nbsp;</p>
+            <asp:ScriptManager ID="ScriptManager1" runat="server">
+            </asp:ScriptManager>
+        </p>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <asp:ListBox ID="ListBox1" runat="server"></asp:ListBox>
+                <asp:ListBox ID="ListBox2" runat="server"></asp:ListBox>
+                <asp:Timer ID="Timer1" runat="server" Interval="5000" />
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <p>
+            Buscando ...</p>
         <p>
             <asp:LinkButton ID="LinkButton4" runat="server">Cerrar sesión</asp:LinkButton>
         </p>

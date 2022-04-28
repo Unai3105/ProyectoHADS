@@ -5,6 +5,8 @@ Public Class Global_asax
 
     Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)
         ' Se desencadena al iniciar la aplicación
+        Application("correoAlumnos") = New List(Of String)
+        Application("correoProfesores") = New List(Of String)
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
