@@ -9,8 +9,8 @@ Public Class WebForm5
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Session.Clear()
-        Response.Redirect("Inicio.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
+        'Response.Redirect("Inicio.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
     End Sub
 
     Protected Sub DropDownList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownList1.SelectedIndexChanged
@@ -18,8 +18,8 @@ Public Class WebForm5
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("Profesor/InsertarTarea.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/InsertarTarea.aspx")
+        'Response.Redirect("InsertarTarea.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/InsertarTarea.aspx")
     End Sub
 
     Protected Sub SqlDataSource1_Selecting(sender As Object, e As SqlDataSourceSelectingEventArgs) Handles SqlDataSource1.Selecting

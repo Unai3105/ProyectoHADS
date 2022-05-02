@@ -118,6 +118,78 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:AplicaciónUsuarios.MediaHoras._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._UpdatePanel1">
+<summary>
+Control UpdatePanel1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._horasAsig">
+<summary>
+Control horasAsig.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._Timer1">
+<summary>
+Control Timer1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._LinkButton1">
+<summary>
+Control LinkButton1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.MediaHoras._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:AplicaciónUsuarios.ImportarTareasXMLDocuments._form1">
 <summary>
 Control form1.
@@ -424,15 +496,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm9._Button1">
-<summary>
-Control Button1.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:AplicaciónUsuarios.WebForm9._ScriptManager1">
 <summary>
 Control ScriptManager1.
@@ -478,9 +541,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm9._UpdateProgress1">
+<member name="F:AplicaciónUsuarios.WebForm9._Button1">
 <summary>
-Control UpdateProgress1.
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -517,6 +580,15 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.WebForm10._LinkButton3">
 <summary>
 Control LinkButton3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm10._LinkButton5">
+<summary>
+Control LinkButton5.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -892,15 +964,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:AplicaciónUsuarios.WebForm2._Label7">
-<summary>
-Control Label7.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:AplicaciónUsuarios.WebForm2._Button1">
 <summary>
 Control Button1.
@@ -913,6 +976,51 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:AplicaciónUsuarios.WebForm2._HyperLink1">
 <summary>
 Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._ScriptManager1">
+<summary>
+Control ScriptManager1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._UpdatePanel2">
+<summary>
+Control UpdatePanel2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._matri">
+<summary>
+Control matri.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._usuarioExistente">
+<summary>
+Control usuarioExistente.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:AplicaciónUsuarios.WebForm2._Timer1">
+<summary>
+Control Timer1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -1026,6 +1134,66 @@ Control SqlDataSource2.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:AplicaciónUsuarios.horasasignatura.MediaHoras">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.horasasignatura.MediaHoras.#ctor">
+<remarks/>
+</member>
+<member name="E:AplicaciónUsuarios.horasasignatura.MediaHoras.HorasAsignaturaCompleted">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.horasasignatura.MediaHoras.HorasAsignatura(System.String)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.horasasignatura.MediaHoras.HorasAsignaturaAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.horasasignatura.MediaHoras.HorasAsignaturaAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.horasasignatura.MediaHoras.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:AplicaciónUsuarios.horasasignatura.HorasAsignaturaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AplicaciónUsuarios.horasasignatura.HorasAsignaturaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AplicaciónUsuarios.horasasignatura.HorasAsignaturaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:AplicaciónUsuarios.matriculado.Matriculas">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.matriculado.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:AplicaciónUsuarios.matriculado.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.matriculado.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.matriculado.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.matriculado.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:AplicaciónUsuarios.matriculado.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:AplicaciónUsuarios.matriculado.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:AplicaciónUsuarios.matriculado.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:AplicaciónUsuarios.matriculado.comprobarCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

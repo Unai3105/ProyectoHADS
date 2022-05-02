@@ -44,13 +44,23 @@
                 <asp:ListItem Value="Profesor">Profesor</asp:ListItem>
             </asp:DropDownList>
         </p>
-        <p>
-            <asp:Label ID="Label7" runat="server"></asp:Label>
-        </p>
         <asp:Button ID="Button1" runat="server" Text="Registrar" />
         <br />
         <br />
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Inicio.aspx">Inicio</asp:HyperLink>
+        <br />
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel2" runat="server">
+            <ContentTemplate>
+                <asp:Label ID="matri" runat="server" ForeColor="Red"></asp:Label>
+        <br />
+                <asp:Label ID="usuarioExistente" runat="server" ForeColor="#33CC33"></asp:Label>
+<br />
+                <asp:Timer ID="Timer1" runat="server" Interval="2000">
+                </asp:Timer>
+            </ContentTemplate>
+        </asp:UpdatePanel>
         <br />
     </form>
 </body>

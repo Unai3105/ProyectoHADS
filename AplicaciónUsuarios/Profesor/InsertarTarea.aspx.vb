@@ -52,8 +52,8 @@ Public Class WebForm8
     End Sub
 
     Protected Sub LinkButton2_Click(sender As Object, e As EventArgs) Handles LinkButton2.Click
-        Response.Redirect("Profesor/GestionarTareas.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Profesor/GestionarTareas.aspx")
+        'Response.Redirect("GestionarTareas.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/GestionarTareas.aspx")
     End Sub
 
     Protected Sub descripcionBox_TextChanged(sender As Object, e As EventArgs) Handles descripcionBox.TextChanged

@@ -32,15 +32,6 @@ Partial Public Class WebForm9
     Protected WithEvents LinkButtonVerTareas As Global.System.Web.UI.WebControls.LinkButton
 
     '''<summary>
-    '''Control Button1.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
-
-    '''<summary>
     '''Control ScriptManager1.
     '''</summary>
     '''<remarks>
@@ -86,11 +77,11 @@ Partial Public Class WebForm9
     Protected WithEvents Timer1 As Global.System.Web.UI.Timer
 
     '''<summary>
-    '''Control UpdateProgress1.
+    '''Control Button1.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents UpdateProgress1 As Global.System.Web.UI.UpdateProgress
+    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
 End Class

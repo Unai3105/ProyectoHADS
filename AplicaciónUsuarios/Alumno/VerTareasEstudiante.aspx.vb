@@ -53,8 +53,8 @@ Public Class WebForm6
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButton1.Click
         Session.Clear()
         FormsAuthentication.SignOut()
-        Response.Redirect("Inicio.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
+        'Response.Redirect("Inicio.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
     End Sub
 
     Protected Sub DropDownListAsig_SelectedIndexChanged(sender As Object, e As EventArgs) Handles DropDownListAsig.SelectedIndexChanged
@@ -65,8 +65,7 @@ Public Class WebForm6
         Session("codTareaInstanciar") = GridView1.Rows(GridView1.SelectedIndex).Cells(1).Text
         Session("hEstimadas") = GridView1.Rows(GridView1.SelectedIndex).Cells(3).Text
 
-        Response.Redirect(“Alumno/InstanciarTarea.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Alumno/InstanciarTarea.aspx")
+        Response.Redirect(“InstanciarTarea.aspx")
     End Sub
 
 End Class

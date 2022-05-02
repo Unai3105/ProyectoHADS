@@ -4,6 +4,7 @@
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
         Dim result As String
         result = AccesoDatos.AccesodatosSQL.conectar()
+        'Dim numBD As String = AccesoDatos.AccesodatosSQL.obtenerNumConfir(TextBox1.Text)
         Dim correo As String = Session("correo")
         Dim numConf As String = Session("numConf")
 

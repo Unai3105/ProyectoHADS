@@ -48,13 +48,3 @@ C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.vbpr
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.dll
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.xml
 C:\Users\Propietario\Desktop\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.pdb
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Debug\AccesoDatos.dll
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Debug\AccesoDatos.pdb
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\bin\Debug\AccesoDatos.xml
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.vbproj.AssemblyReference.cache
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.Resources.resources
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.vbproj.GenerateResource.cache
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.vbproj.CoreCompileInputs.cache
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.dll
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.xml
-C:\Users\uroa3\Desktop\Nueva carpeta\ProyectoHADS\AccesoDatos\obj\Debug\AccesoDatos.pdb

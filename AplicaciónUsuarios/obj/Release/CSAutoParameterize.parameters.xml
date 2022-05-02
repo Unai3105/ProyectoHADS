@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="HADS2204Entities-Web.config Connection String" description="HADS2204Entities Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=tcp:hads-2204.database.windows.net,1433;initial catalog=HADS2204;persist security info=True;user id=uroa002@ikasle.ehu.es@hads-2204;password=Ekaitzaelurra_221018;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\usuario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS2204Entities']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Propietario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS2204Entities']/@connectionString" />
   </parameter>
   <parameter name="HADS2204ConnectionString-Web.config Connection String" description="HADS2204ConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads-2204.database.windows.net,1433;Initial Catalog=HADS2204;Persist Security Info=True;User ID=uroa002@ikasle.ehu.es@hads-2204;Password=Ekaitzaelurra_221018;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\usuario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS2204ConnectionString']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Propietario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS2204ConnectionString']/@connectionString" />
   </parameter>
   <parameter name="hads2204/HADS22-04.dbo-Web.config Connection String" description="hads2204/HADS22-04.dbo Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=hads2204.database.windows.net;Initial Catalog=HADS22-04;User ID=mmorillo005@ikasle.ehu.eus@hads2204;Password=Hads2122" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\usuario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hads2204/HADS22-04.dbo']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Propietario\\Desktop\\ProyectoHADS\\AplicaciónUsuarios\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hads2204/HADS22-04.dbo']/@connectionString" />
   </parameter>
 </parameters>

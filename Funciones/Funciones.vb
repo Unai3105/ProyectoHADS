@@ -14,8 +14,7 @@ Public Class Funciones
         With message
             .From = New System.Net.Mail.MailAddress("HADS202204@gmail.com")
             .To.Add(correoDestino)
-            .Body = "Link de confirmación: https://localhost:44306/Confirmar.aspx"
-            '.Body = "Link de confirmación: http://hads22-04.azurewebsites.net/Confirmar.aspx"
+            .Body = "Link de confirmación: http://hads22-04.azurewebsites.net/Confirmar.aspx"
             .Subject = "Confirmación HADS"
             .IsBodyHtml = False
             .Priority = System.Net.Mail.MailPriority.Normal

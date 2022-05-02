@@ -21,8 +21,8 @@
     End Sub
 
     Protected Sub LinkButton1_Click(sender As Object, e As EventArgs) Handles LinkButtonVerTareas.Click
-        Response.Redirect("Alumno/VerTareasEstudiante.aspx")
-        'Response.Redirect("http://hads22-04.azurewebsites.net/Alumno/VerTareaEstudiante.aspx")
+        'Response.Redirect("Alumno/VerTareasEstudiante.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/Alumno/VerTareaEstudiante.aspx")
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -34,7 +34,8 @@
 
         Session.Clear()
 
-        Response.Redirect("../Inicio.aspx")
+        'Response.Redirect("../Inicio.aspx")
+        Response.Redirect("http://hads22-04.azurewebsites.net/Inicio.aspx")
         'FormsAuthentication.SignOut()
     End Sub
 

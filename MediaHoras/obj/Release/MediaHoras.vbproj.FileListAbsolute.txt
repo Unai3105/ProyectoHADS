@@ -1,0 +1,11 @@
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.vbproj.AssemblyReference.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.Resources.resources
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.vbproj.GenerateResource.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.vbproj.CoreCompileInputs.cache
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\bin\MediaHoras.dll.config
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\bin\MediaHoras.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\bin\MediaHoras.pdb
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\bin\MediaHoras.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.dll
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.xml
+C:\Users\Propietario\Desktop\ProyectoHADS\MediaHoras\obj\Release\MediaHoras.pdb

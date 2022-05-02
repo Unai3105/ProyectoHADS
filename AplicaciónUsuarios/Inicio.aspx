@@ -35,6 +35,10 @@
             <asp:LinkButton ID="registro" runat="server" CausesValidation="False" PostBackUrl="~/Registro.aspx">Registrate aquí</asp:LinkButton>
         </p>
         <p>
+            &nbsp;</p>
+        <p>
+            &nbsp;</p>
+        <p>
             <asp:LinkButton ID="chpass" runat="server" Visible="False">Cambiar contraseña</asp:LinkButton>
         </p>
     </form>
